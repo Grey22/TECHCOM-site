@@ -1,0 +1,319 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* .logo:hover{
+color: aquamarine;
+transition: ease-in .3s;
+} */
+::placeholder{
+    color: rgb(122, 119, 119);
+}
+.btn:hover{
+    background-color: rgb(150, 146, 146);
+    transition: ease-in .2s;
+    cursor: pointer;
+}
+.sign-up-box:hover{
+    background-color: rgb(150, 146, 146);
+    transition: ease-in .2s;
+    cursor: pointer;
+}
+.btn{
+    top: 50%;
+    margin-top: 70px;
+    background:transparent;
+    margin-left: 700px;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 12%;
+    height: 7vh;
+    position: absolute;
+    z-index: 600;
+}
+.content-box{
+    top: 50%;
+    margin-top: 70px;
+    background:transparent;
+    margin-left: 510px;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 12%;
+    outline: none;
+    height: 7vh;
+    position: absolute;
+    z-index: 600;
+}
+.sign-up-box{
+    /* transform: translate(-50%, -50%); */
+    top: 50%;
+    margin-top: 70px;
+    background:transparent;
+    margin-left: 510px;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 12%;
+    outline: none;
+    height: 7vh;
+    position: absolute;
+    z-index: 600;
+}
+.overlay{
+    width: 100%;
+    height: 100vh;
+    /* z-index: 100; */
+    background-color:gainsboro;
+    opacity: 0.6;
+    filter: brightness(-50%);
+}
+.image:hover{
+    background-color: rgb(190, 219, 177);
+    transition: ease-in .2s;
+    z-index: 400;
+    /* transform: translate(-50%, -50%); */
+    width: 200%;
+
+}
+.new-bg{
+    overflow-x: hidden;
+    width: 100%;
+    background-image: url(./images/audience-b-business-training-1181395.jpg);
+    /* background: rgba(0, 0, 0, 0);. */
+    background-size: cover;
+    /* opacity:0.8; */
+    height: 100vh;
+    filter: opacity(0.9);
+    position: absolute;
+    
+    /* filter: brightness(-50%); */
+    background-position: center;
+    
+    
+    /* opacity: -8; */
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: #302e2e;
+    opacity: .9;
+    position:fixed ;
+    height: 12vh;
+    z-index: 500;
+    width: 100%;
+    /* position:fixed; */
+    /* width: 100%; */
+}
+a:link{
+    list-style: none;
+    text-decoration: none;
+    
+}
+.logo{
+    color:white;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav-links{
+    display:flex;
+    justify-content: stretch;
+    /* width: 30%; */
+    position: absolute;
+        right: 0px;
+        height: 90vh;
+        top: 8vh;
+        margin-top: 13px;
+        background-color: #302e2e;
+        /* opacity: .9; */
+        /* display: flex; */
+        flex-direction: column;
+        align-items: center;
+        width: 18%;
+        z-index: 300;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+}
+.nav-links li{
+    list-style-type: none;
+    opacity: unset;
+}
+.nav-links a{
+    color: white;  
+    text-decoration: none;
+    letter-spacing: 1.8px;
+    font-size: 14px;
+    
+    font-weight: bold;
+    
+
+}
+a:hover{
+    color:aquamarine;
+    transition: ease-in .3s;
+}
+.burger{
+    display: none ;
+    cursor: pointer;
+    display: block;
+}
+.burgee div{
+    width: 80px;
+    height: 3px;
+    background-color: rgb(177, 148, 105);
+    /* margin-left: 300px; */
+    margin: 5px;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(255, 250, 250);
+    margin: 5px;
+}
+.nd-image{
+    width: 30%;
+    height: 50vh;
+    margin-left: 40px;
+    margin-top: 80px;
+    border-radius: 8px;
+    /* filter: opacity(0.8) brightness(100%); */
+}
+.rd-image{
+    width: 30%;
+    height: 50vh;
+    margin-left: 20px;
+    margin-top: 80px;
+    border-radius: 8px;
+}
+button{
+    background: rgb(44, 44, 46);
+    outline: none;
+}
+button:hover{
+    background-color: rgb(24, 24, 24);
+    transition: ease-in .2s;
+}
+.barr{
+    outline: none;
+}
+.second-bar{
+    background-image: url(./images/art-art-materials-clips-159627.jpg);
+    opacity: 1;
+    background-size: cover;
+    background-position: center;
+}
+.br-br{
+    filter: opacity(1);
+}
+.first-img:hover{
+    color: black;
+    transition: ease-in-out .2s;
+    opacity: 1;
+    cursor: pointer;
+    filter: brightness(50%);
+}
+.nd-image:hover{
+    color: black;
+    transition: ease-in-out .2s;
+    opacity: 1;
+    filter: brightness(50%);
+    cursor: pointer;
+}
+.rd-image:hover{
+    color: black;
+    transition: ease-in-out .2s;
+    opacity: 1;
+    filter: brightness(50%);
+    cursor: pointer;
+}
+.fadeIn{
+    animation: fadeIn forwards 3s;
+}
+.burgee_ div{
+    width: 80px;
+    height: 3px;
+    background-color: rgb(177, 148, 105);
+}
+.testimonials{
+    background: linear-gradient(rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.644)), url(./images/man-wearing-black-graduation-gown-and-cap-2880979.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    /* filter: brightness(); */
+    margin-top: 80px;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+@media screen and (max-width:1024px){
+    .nav-links{
+        width: 60%;
+    }
+}
+
+/* @media screen and (max-width:768px){ */
+
+    /* .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #5d4954;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    } */
+    /* .nav-links li{
+        opacity: 0; */
+    }
+    .burger{
+        /* display: block; */
+       
+    }
+    .nav-active{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes navLinkFade{
+
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+}
+
+/* .toggle .line1{
+    transform:rotate(-45eg) translate(-5px, 6px);
+}
+.toggle .line2{
+   opacity: 0;
+}
+.toggle .line3{
+    transform:rotate(45eg) translate(-5px, -6px);
+} */
